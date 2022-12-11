@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #101010;
+    font-size: .875rem;
+    color: #fff;
+    padding: 50px;
+}
+h1{
+    font-size: 2rem;
+}
+li{
+    color: #fff;
+}
+h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+input{
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 10px 0;
+    outline: none;
+    padding:8px  10px;
+    width: 100%;
+}
+
+.card-gif{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    align-items: flex-start;
+    background-color: #1c1c1c;    
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(26, 26, 26, 0.678);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 5px 0;
+    margin: 5px;
+    min-width: calc(30% - 15px);
+    overflow: hidden;
+}
+.card img{
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: top;
+    width: 100%;
+}
+.card p{
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+/*button{
+    background-color: #0066ff;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 600;
+    margin: 10px 0;
+    outline: none;
+    padding: 8px 10px;
+}*/
